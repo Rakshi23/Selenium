@@ -16,7 +16,7 @@ public class First {
 		driver.findElement(By.name("q")).sendKeys("quinnox bangalore");
 		
 		//Click on the search button
-		driver.findElement(By.name("btnK")).click();
+		driver.findElement(By.name("btnK")).submit();
 	}
 
 }
